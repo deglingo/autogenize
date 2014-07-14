@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -eu
+
+PKGSHAREDIR='@pkgsharedir@'
+
+echo "autogenize: creating autogen"
+cp -vf "$PKGSHAREDIR/autogen.in" autogen
